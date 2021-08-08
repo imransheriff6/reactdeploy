@@ -30,9 +30,9 @@ function App() {
   }
   return (
     <div className="App" id='header'>
-      <p>{count}</p>
+      {/* <p>{count}</p>
       <p>{countOne}</p>
-      <button onClick={clickingDiv}>click</button>
+      <button onClick={clickingDiv}>click</button> */}
       <Provider store={store}>
         <ReduxTutorial/>
         <ReduxTutorial1/>
